@@ -4,7 +4,7 @@ import { Menubar, MenubarContent, MenubarItem, MenubarMenu, MenubarSeparator, Me
 
 function Navmenubar() {
     return (
-        <Menubar>
+        <Menubar className=' items-center justify-evenly border-cyan-200 '>
             <MenubarMenu>
                 <MenubarTrigger>Browse</MenubarTrigger>
                 <MenubarContent>
