@@ -10,32 +10,62 @@ import { Button } from "@/components/ui/button";
 const products = [
     {
         title: "Laptops & Computers",
-        href: "https://source.unsplash.com/250x200/?products&1",
-        price: 1452.56
+        href: "/cakes/cake.jpg",
+        price: 1452.56 
     },
     {
         title: "Mobile Phones",
-        href: "https://source.unsplash.com/250x200/?products&2",
-        price: 4533.56
+        href: "/cakes/cake2.jpg",
+        price: 5300.56
     },
     {
         title: "Televisions",
-        href: "https://source.unsplash.com/250x200/?products&3",
+        href: "/cakes/cake3.jpg",
         price: 6575.56
     },
     {
         title: "Home Appliances",
-        href: "https://source.unsplash.com/250x200/?products&4",
+        href: "/cakes/cake4.jpg",
         price: 1457.56
     },
     {
         title: "Tech Accessories",
-        href: "https://source.unsplash.com/250x200/?products&5",
+        href: "/cakes/cake5.jpg",
         price: 6754.56
     },
     {
         title: "Gaming Gear",
-        href: "https://source.unsplash.com/250x200/?products&6",
+        href: "/cakes/cake6.jpg",
+        price: 8975.56
+    },
+    {
+        title: "Gaming Gear",
+        href: "/cakes/cake7.jpg",
+        price: 8975.56
+    },
+    {
+        title: "Gaming Gear",
+        href: "/cakes/cake8.jpg",
+        price: 8975.56
+    },
+    {
+        title: "Gaming Gear",
+        href: "/cakes/cake9.jpg",
+        price: 8975.56
+    },
+    {
+        title: "Gaming Gear",
+        href: "/cakes/cake10.jpg",
+        price: 8975.56
+    },
+    {
+        title: "Gaming Gear",
+        href: "/cakes/cake11.jpg",
+        price: 8975.56
+    },
+    {
+        title: "Gaming Gear",
+        href: "/cakes/cake12.jpg",
         price: 8975.56
     },
 ];
@@ -50,7 +80,7 @@ export default function ProductCard() {
                         </CardHeader>
                         <CardTitle className="text-center text-xl">{product.title}</CardTitle>
                         <CardFooter className="flex justify-between mt-5">
-                            <p className="text-lg font-semibold">Rs. {product.price}</p>
+                            <p className="text-lg font-semibold">Rs. {product.price} ₹</p>
                             <Button>Buy Now</Button>
                         </CardFooter>
                     </Card>
