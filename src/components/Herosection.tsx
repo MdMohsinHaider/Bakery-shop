@@ -10,7 +10,7 @@ export default function Hero() {
             <div className="absolute inset-0 flex items-center justify-center text-center">
                 <div>
                     <h1 className="mt-19 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text animate-pulse">Bakery Shop</h1>
-                    <p className=" mt-1 font-normal text-base md:text-lg max-w-lg mx-auto">"Welcome to our bakery shop! Indulge in freshly baked treats, artisanal bread, and custom cakes. Experience delight in every bite!"</p>
+                    <p className=" mt-1 font-normal text-base md:text-lg max-w-lg mx-auto">Welcome to our bakery shop! Indulge in freshly baked treats, artisanal bread, and custom cakes. Experience delight in every bite!</p>
                     <Link href="/shop">
                         <Button variant="default" className=" mt-4 animate-bounce">Shop Now</Button>
                     </Link>
