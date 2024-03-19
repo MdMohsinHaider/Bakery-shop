@@ -1,5 +1,6 @@
 import { AspectRatio } from "@/components/ui/aspect-ratio"
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Hero() {
     return (
@@ -8,9 +9,11 @@ export default function Hero() {
                 <img src="/cakes/back.jpg" alt="" className=" opacity-40 h-156 w-full object-cover object-center" />
             <div className="absolute inset-0 flex items-center justify-center text-center">
                 <div>
-                    <h1 className="mt-20 md:mt-0 tesx-4xl md:text-7xl font-bold bg-clip-text ">Baker Shop</h1>
-                    <p className=" mt-4 font-normal text-base md:text-lg max-w-lg mx-auto">Discover the latest trends and best deals on electronics, fashion, and more.</p>
-                    <Button variant="destructive" className=" mt-4">Shop Now</Button>
+                    <h1 className="mt-19 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text animate-pulse">Bakery Shop</h1>
+                    <p className=" mt-1 font-normal text-base md:text-lg max-w-lg mx-auto">"Welcome to our bakery shop! Indulge in freshly baked treats, artisanal bread, and custom cakes. Experience delight in every bite!"</p>
+                    <Link href="/shop">
+                        <Button variant="default" className=" mt-4 animate-bounce">Shop Now</Button>
+                    </Link>
                 </div>
             </div>
         </AspectRatio>
